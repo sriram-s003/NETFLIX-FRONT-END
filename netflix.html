@@ -1,0 +1,250 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Netflix Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-black text-white">
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between p-4 bg-black bg-opacity-75 fixed w-full z-10">
+   <div class="flex items-center space-x-4">
+    <img alt="Netflix logo with red text on a black background" class="h-8" height="50" src="https://storage.googleapis.com/a1aa/image/1eWdu2IJKdtiqR-pVX4YotPfTF4ezN5GRi1M0akXwhI.jpg" width="100"/>
+    <a class="text-white hover:text-gray-400" href="#">
+     Home
+    </a>
+    <a class="text-white hover:text-gray-400" href="#">
+     TV Shows
+    </a>
+    <a class="text-white hover:text-gray-400" href="#">
+     Movies
+    </a>
+    <a class="text-white hover:text-gray-400" href="#">
+     New &amp; Popular
+    </a>
+    <a class="text-white hover:text-gray-400" href="#">
+     My List
+    </a>
+   </div>
+   <div class="flex items-center space-x-4">
+    <i class="fas fa-search text-white">
+    </i>
+    <i class="fas fa-bell text-white">
+    </i>
+    <img alt="User avatar placeholder image" class="h-8 w-8 rounded-full" height="30" src="https://storage.googleapis.com/a1aa/image/VJHplhQVkABp3tdU0WXAdXYBGKT6Kp2gQ3tBnQbDb0A.jpg" width="30"/>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center">
+   <img alt="Hero image placeholder with a dark background" class="absolute inset-0 w-full h-full object-cover opacity-50" height="1080" src="https://storage.googleapis.com/a1aa/image/83xC8utoV_AbHqnxteqpBSRssVxNCokkAFDXBTcvucU.jpg" width="1920"/>
+   <div class="relative z-10 text-center">
+    <h1 class="text-5xl font-bold mb-4">
+     Watch the Latest Movies and TV Shows
+    </h1>
+    <p class="text-xl mb-8">
+     Stream anywhere. Cancel anytime.
+    </p>
+    <button class="bg-red-600 text-white px-6 py-3 rounded-md text-lg">
+     Watch Now
+    </button>
+   </div>
+  </section>
+  <!-- Content Section -->
+  <section class="px-4 py-8">
+   <h2 class="text-3xl font-bold mb-4">
+    Trending Now
+   </h2>
+   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+    <div class="relative">
+     <img alt="Movie 1 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/XrKIjObFJtUFwEdFm5m-ZHl4oAeYvEZF8K7wLVBlTZ0.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Movie 2 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/lNmNCmLKwtW_teocf-0MyVUsU9-sE4ZmWUmJrjn9aCM.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Movie 3 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/MI2_mdqFum6JoKxCN1wMn4BrapYNOTI7mBbqoQoJi_U.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Movie 4 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/QMla5fE8c-S0zeszsTENbE6p-uOw2G36V9wPsmOrnfU.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Movie 5 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/bLkgMzbNHFaqoTQXaKjO9SpYrhkIA_TzLbvKRWQTcUM.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Movie 6 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/VW_5pXfI53QDXpGBRN4j3tPvU4HBNVQCQLeH2CrVCFg.jpg" width="300"/>
+    </div>
+   </div>
+  </section>
+  <section class="px-4 py-8">
+   <h2 class="text-3xl font-bold mb-4">
+    Popular on Netflix
+   </h2>
+   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+    <div class="relative">
+     <img alt="Show 1 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/AeG_M6zQZhVAm0wDSVqEt_aPY2rJAIs7pZ3WajaakZw.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Show 2 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/PYubXFcpc7j_g-5tvYMQoHFwce33qZd21BKuu_nECAU.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Show 3 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/Rl4LhFP-VDflIOXhycqxoznGGi9j3phmJ_RGumsLcR0.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Show 4 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/I6ZQXPSpsV0Bu0jM5-gWluCpvk6h2065fEQvc9ecd80.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Show 5 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/pKnfqYPk6RNtpcp4EzZPJFvBQSGenWW3fJGM0pRnGRE.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="Show 6 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/4EbSqfd1IKgJ0GfjfkV012AYzuKX-NLfwc-cF17ulGc.jpg" width="300"/>
+    </div>
+   </div>
+  </section>
+  <section class="px-4 py-8">
+   <h2 class="text-3xl font-bold mb-4">
+    New Releases
+   </h2>
+   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+    <div class="relative">
+     <img alt="New release 1 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/Jt4i4fFzODio7FfZRc6w2aRpVgpI3U4n_DOJ693ZnhQ.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="New release 2 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/adA_u1aOm84p_lPpCnPi4l8LKyYtyLUV9qJ_nf7OpEE.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="New release 3 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/0eCXVW19xKPEq22snSBLbfMqdzsPwWRrl9mF4ZqHgRM.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="New release 4 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/kBCUWKMbrHUr7D9For8nPU8lFqGH9Jip5638nTrAbIk.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="New release 5 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/QPmO2Xh5NS4hVkgrIY-oVtql1vXOVnlX6YE5ZdIbcHg.jpg" width="300"/>
+    </div>
+    <div class="relative">
+     <img alt="New release 6 poster with a dark background" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/HKzv1Yyf0WrBYgfi6Nj8zGqDdmvfCm7ZhH4zDd9u1-M.jpg" width="300"/>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-black py-8">
+   <div class="container mx-auto px-4">
+    <div class="flex flex-wrap justify-between">
+     <div class="w-full md:w-1/4 mb-4 md:mb-0">
+      <h3 class="text-lg font-bold mb-2">
+       Questions? Contact us.
+      </h3>
+      <ul>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         FAQ
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Help Center
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Account
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Media Center
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="w-full md:w-1/4 mb-4 md:mb-0">
+      <h3 class="text-lg font-bold mb-2">
+       About Us
+      </h3>
+      <ul>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Investor Relations
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Jobs
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Ways to Watch
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Corporate Information
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="w-full md:w-1/4 mb-4 md:mb-0">
+      <h3 class="text-lg font-bold mb-2">
+       Legal
+      </h3>
+      <ul>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Terms of Use
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Privacy
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Cookie Preferences
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Corporate Information
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="w-full md:w-1/4 mb-4 md:mb-0">
+      <h3 class="text-lg font-bold mb-2">
+       Follow Us
+      </h3>
+      <div class="flex space-x-4">
+       <a class="text-gray-400 hover:text-white" href="#">
+        <i class="fab fa-facebook-f">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-white" href="#">
+        <i class="fab fa-twitter">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-white" href="#">
+        <i class="fab fa-instagram">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-white" href="#">
+        <i class="fab fa-youtube">
+        </i>
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>

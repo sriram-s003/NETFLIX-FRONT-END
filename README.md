@@ -24,28 +24,6 @@ Font Awesome (for icons)
 
 Google Fonts (Roboto)
 
-🚀 Getting Started
-
-Prerequisites
-
-To run this project, all you need is a modern web browser.
-
-Installation
-
-Clone the repository
-
-git clone https://github.com/your-username/netflix-clone.git
-
-Navigate to the project folder
-
-cd netflix-clone
-
-Open the index.html file in your browser
-
-📷 Screenshots
-
-
-
 🎨 Customization
 
 To change the hero section text, update the <h1> and <p> in the hero section.
